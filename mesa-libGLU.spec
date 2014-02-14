@@ -16,7 +16,7 @@ License:	MIT
 URL:		http://mesa3d.org/
 # snapshot only at this point
 Source0:	libGLU-%{gitdate}.tar.xz
-Source2:	make-git-snapshot.sh
+#Source2:	make-git-snapshot.sh
 
 %if 0%{?gitdate}
 BuildRequires:	autoconf automake libtool
