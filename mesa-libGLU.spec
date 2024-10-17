@@ -13,7 +13,7 @@ Release:	%mkrel 0.git%{gitdate}.%{rel}
 Summary:	Mesa libGLU library
 Group:		System/Libraries
 License:	MIT
-URL:		http://mesa3d.org/
+URL:		https://mesa3d.org/
 # snapshot only at this point
 Source0:	libGLU-%{gitdate}.tar.xz
 #Source2:	make-git-snapshot.sh
