@@ -19,6 +19,8 @@ Source0:	libGLU-%{gitdate}.tar.xz
 #Source2:	make-git-snapshot.sh
 
 %if 0%{?gitdate}
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:	autoconf automake libtool
 %endif
 BuildRequires:	pkgconfig(gl)
