@@ -9,7 +9,7 @@
 
 Name:		mesa-libGLU
 Version:	9.0
-Release:	%mkrel 0.git%{gitdate}.%{rel}
+Release:	0.git%{gitdate}.%{rel}.1
 Summary:	Mesa libGLU library
 Group:		System/Libraries
 License:	MIT
